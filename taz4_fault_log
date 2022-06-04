@@ -1,0 +1,605 @@
+22.4.22 - 23:00
+Fault
+Filament broke off during print, just at the extruder entrance tube
+
+Steps taken:
+Print was restarted
+
+22.4.22 - 23:55
+Fault
+Stopped extruding on first layer. Upon examination, the PTFE tube feeding the filament into the extruder was partially fed into the extruder entrance hole. The PTFE tube was previously damaged, so a slice of damaged section was fed into the filament, clogging up the upper feeding tube.
+The filament did not freely unroll off the spool, it was stuck on the furthest right line towards the spool and might have been "dug deeper"
+
+Steps taken:
+Added a zip tie at the top frame of the machine firmly holding the PTFE tube in a place that leaves a few cm space between exit and extruder entrance hole
+
+23.4.22 - 0:15
+Fault
+Filament spool hung causing extruder assembly to lift during first layer. Problem was observed.
+
+Steps taken:
+Filament was changed, to be checking on the problem at a later point
+
+23.4.22 - 0:45
+Fault
+Inconsistent first layer height
+
+Steps taken:
+The zip ties to the PTFE tube were removed. The print quality normalized.
+The print was paused for "filament change" and the end of the PTFE tube was trimmed and the filament re-inserted
+
+
+23.4. 14:15
+Hack
+
+A wedge was installed that mounts securely ot the filament tube entrance.
+Note: this doesn't work as I planned on spools with side cutouts. I installed it the other way around
+
+24.4. 16:43
+Maintenance
+
+Y min was set to -20 to deal with the endstop offset.
+Right Z was very slightly lowered and a calibration object printed to verify the level:
+center: just a tiny bit too high, like front left corner, still acceptable
+front left corner: just a tiny bit too high, still acceptable
+front right corner: perfect
+back left corner: bit too high
+back right corner: quite a bunch too low
+
+Because I am lacking the proper wrench size, leveling was postponed. The build plate limits in super slicer work okay now
+
+26.4.22 15:30
+Maintenance
+
+Print bed level was calibrated. Y -20 was set to origin in superslicer. Performing bridge flow calibrations
+
+
+27.4.22 16:43
+Maintenance
+
+Opened the power supply. 2 of 6 plastic screws were already missing.
+Found a broken 60x60x15mm fan 12V inside. Cannot verify the fan voltage at the moment.
+Fan has a 2.54mm JST female connector
+Ordering a replacemnt sunon fan: MF60152V21000UA99 , a 24V fan that starts at 8V and shouldn't be too loud
+
+
+28.4.22 20:30
+Maintenance, follow-up
+
+Reassembled the power supply as the fan replacement will take longer than expected to be delivered. Fan still turns on, but gets very noisy at times
+
+1.5.22 20:33
+Maintenance
+
+Replaced the PSU fan, installed MF60152V21000UA99 ; Soldered the original connector to it.
+Fan fit to the mounting cylinders was terrible, might be a challange to get it out without breaking the cylinders.
+Actually found 5 of the 6 screws on the PSU to be present.
+Fan appears to be running and temperature controlled by the PSU.
+
+
+9.5.22 9:00
+Print Failure / Filament
+Filament used: Owl PLA bordeaux
+
+Print was started yesterday with a dark red Owl-Filament spool that worked okay for previous big prints.
+
+Found an incomplete print, upon inspection filament broke off the top of the extruder. Had to remove the extruder front panel, however the lower right screw did not want to come off, the nut insert was spinning loosely and went out without much effort.
+Manage to pull the filament out of the nozzle and pulled a bit of different filament through to clean it.
+The last ~1.5cm of filament had what looked like an extrusion problem, being thick up to 2.05mm, the next filament on the spool was a bit undersized with 1.66mm
+
+Trying to fix the extruder thread insert, I noticed that it is a 4mm insert and the ones I have are 5mm for M3 (and 3.5mm for M2.5). Drilling the hole bigger by a millimeter might be marginal.
+I put the old one back into and applied some heat with my soldering iron. However, this is likely just a temporary fix.
+
+Extruder was reassembled and hotend was flushed with new filament. New print started, looks nominal.
+
+
+9.5. 12:04
+Print Failure / Filament
+Filament used: Smartfil PLA Glitter Purple
+
+Extrusion stopped mid-print. Pulled out the filament, looks like the extruder pressure on it was too high and the filament feeding gear stripped the filament. Will try to restart the print at a higher temperature
+
+
+9.5. 12:51
+Print Failure / Extruder
+
+Follow up: Extrusion stopped mid first layer.
+Upon examination it was concluded that The extruder gear bearing slipped out of the extruder plastic holder resulting in inconsistent grip.
+The thread insert failed again.
+
+
+9.5. 15:47
+Repair / Extruder
+
+Follow up: I drilled out the extruder hole to 5mm. discovered later that it is partially open to one side.
+I installed a new thread insert, however it's also a bit marginal. It works a lot better than the old one.
+
+It was decided against installing the metal version of the extruder now as driving gear as well as its bearing and bearing sizes are different from the plastic version.
+It is recommended to build a new extruder assembly with the metal version.
+
+
+
+10.5.22 19:16
+Print failure
+Filament: Smartfil PLA Glitter Green
+
+Print failed about 4-5h in. Filament stripped at the extruder gear. Print was a hollow puzzle box sliced with variable layer height.
+It printed fine for hours of minimal detail and eventualy failed.
+
+The minimum layer height was increased from 5% (0.02mm) to 20% (0.08mm)
+
+
+10.5.22 21:16
+Print failure / Nozzle clog
+Filament: Smartfil PLA Glitter Green
+
+Print failed again after a few layers. Filament was changed, it didn't go easily through the nozzle either and curled up on open extrusion. Extruding about 20cm of filament did not solve the problem.
+
+The nozzle was swapped to a new one while the machine was hot. Z height was re-calibrated.
+The new nozzle extrusion was nominal in air.
+
+Inspection under the microscope showed a bit of green and what looked like a large glitter fragment stuck in the nozzle channel
+
+
+10.5.22 21:44
+Print failure / Spool knot
+Filament: Silk PLA Gold
+
+Print failed in early layers. The spooling was found faulty.
+Problem on the spool was found quickly.
+
+
+11.5.22 10:05
+Print failure / First layer extrusion
+Filament: Silk PLA Gold
+
+A new print was started after a nominal print that finished a couple of hours ago. The first layer did not extrude, the filament was very hard to push through.
+
+Filament was pulled out, cut off, re-inserted resulting in nominal extrusion after flushing the hotend.
+Print was restarted and extrusion was nominal.
+
+Possible cause: A combination of low (variable) layer height and low extrusion amount at the end of previous print causing material to heat up higher up in the nozzle before it has a chance to cool down.
+Solution ideas:
+- an extrusion cut off blade should be installed
+- a nozzle wipe area should be installed
+- The hotend should be flushed at the end of a print, after returning to the end position.
+- The hotend should be flushed at the beginning of a print and then be wiped clean, eliminiate the need of a skirt
+- a filament movement sensor should be installed to detect extrusion failures
+
+
+11.5.22 13:43
+Print failure / Nozzle clog
+Filament: Smartfil PLA Glitter Green
+
+Extrusion stopped after a few layers. It was determined that the glitter filament clogged the nozzle.
+It was tried to pull out the stuck particles with a different filament. There were some visible bits of green glitter pulled out and the clogging was partially resolved.
+However after a couple of cycles of trying to clean it out by pulling it out, extrusion in open air is still curling up.
+
+Recommended action: Replace and inspect nozzle, don't use that filament with current nozzle diameter again
+
+11.5.22 15:50
+Nozzle swap
+
+Nozzle was swapped to a hardened stainless steel version.
+The hole diameter looked a bit bigger but the size couldn't be verified without a reference insert.
+Installing the nozzle was more complicated than expected as the nozzle is not following the "standard" spec of a 7mm hex, it only has 2 flat sides.
+
+Quickly recalibrated Z height and doing a test print
+
+13.5.22 - 18:00
+Minor issue / Delamination
+Filament: Eono Silk PLA / Rose
+
+A small wall delaminated on the finished print. Temperature in config was raised to 210 °C to 205 °C. Another print provided nominal lamination.
+
+
+13.5.22 0:10
+Minor issue / Filament holder
+
+It was notice on filament swap that the filament holder moved downwards.
+The filament holder was pulled upwards to a position where the filament wedge will engage and the holder was screwed hand-tight with a 4mm hex wrench.
+
+
+
+13.5.22 10:25
+Z height issue
+
+Print was very hard to remove, skirt was almost impossible to remove.
+Z height was slightly adjusted, needs to be checked upon starting next print
+
+
+14.5.22 3:14
+Print failure / Despooling issue
+Filament used: Overture PLA light blue
+
+An inconsistent winding caused the filament to slip under a few layers into the spool and tangled the spool.
+
+A solution is needed to ensure spooling fault tolerance and unspooling fault detection
+
+
+
+20.5.22 17:59
+Print failure
+Filament: Amazon Basic silk rose pink
+
+Extrusion failed mid-print around a thin-wall section, then resumed extruding nominally.
+Possible de-spooling issue.
+
+
+20.5.22 23:12
+Print failure
+Filament: Sunlu(?) Silk PLA Gold
+
+Extrusion failed mid-print while printing a top surface.
+The PTFE feeding tube got stuck into the extruder causing massive friction.
+The PTFE tube looks mangled.
+
+Proposed solution: Add a 1/4 inch pneumatic connector to the PTFE tube end. Work on this will be performed at a later time.
+
+
+21.5.22 16:09
+Maintenance
+
+Attached a 1/4 inch pneumatic coupling to the PTFE tube end facing the extruder. This should fix the tube-chewing issue.
+However the machine needs a despooling upgrade and a filament runout & running sensor
+
+
+21.5.22 21:30
+Minor failure / Bed height
+
+A part of the skirt was almost impossible to remove. The front-right corner was too high.
+A couple of adjustments and test prints were performed and the Z setting was slightly adjusted in the process.
+
+
+
+21.5.22 22:00
+Maintenance Note
+
+The Igus bushings have worn out a bit on both X and Y axis; but most noticable on X as it allows the axis to skew a bit when lifted (i.e. spool hangs) and will need a replacement eventually.
+When spool hangs occour, the print errors seem to worsen over time.
+
+The X-carridge and extruder mount should be revised at some point as it is much larger than needed. A smaller carridge could add space on X for wipe or similar.
+Note: The x-charridge upgrade project is probably better to develop on the TAZ3 that needs to be resurrected.
+
+23.5.22 20:40
+Print failure, Z height
+
+A print failed early on, the nozzle had no space to extrude filament which caused the extruder to chew up the filament. The extruder was cleared and the Z height was lifted slightly.
+
+A previous print was being tried remove from the build platform at about 42 °C and failed, possibly caused the lift.
+
+Recommendations:
+- A height sensor should be acquired and installed
+- A complete rework of the Y axis shouold be performed that allows for a quick-swap of build platforms
+- It should be avoided to try to take parts off the platform when the bed temperature reads above 30 °C
+
+
+25.5.22 16:20
+Filament issue
+Filament: Sunlu neat winding Silk PLA Silver
+
+Filament overextruded on solid layers. Extrusion rate was set to 0.95 and then 0.93 and it worked well on the first print.
+The second part featuring thin walls delaminated at a point in the wall. Extrusion rate was set to 0.95, third part came out with the same problem.
+Filament was changed; need to investigate if this is related to unspooling problems, filament diameter changes or general filament problems.
+
+
+25.5.22 16:40
+Print failure / USB
+
+The USB cable / connector, probably on the computer side is flaky.
+Further investigation is required
+
+
+25.5.22 21:40
+Print failure / USB
+
+Same problem as last.
+Reseated the USB-B end into the printer, moved the USB-A end from the left to the right port on the front of the computer.
+
+
+25.5.22 21:45
+Maintenance / Spool holder upgrade
+
+TAZ4 logo plate was unscrewed in preparation to install the newly designed spool holders. Maintenance cannot be performed today, as there is hardware missing:
+- slide-in T-slot nuts M5 (at least needed for the back side, the inserts previously holding the logo plate will be used for the first one in the front)
+- DIN 912 M10 bolts for the spool centers
+- possibly as improvement, M5 hand-screwable bolts for easier adjustments, though not needed for testing
+
+
+25.5.22 22:38
+Print failure / USB
+
+It has been determined that Switching off the soldering iron kills the USB connection
+usb 1-2-port4: disabled by hub (EMI?), re-enabling...
+
+This happens to both the USB keyboard and the printer plugged into the front panel.
+
+The "recover" feature in pronterface saved the print.
+
+
+25.5.22 23:55
+USB issues resolution
+
+The usb cable was swapped to a mainboard usb port of the computer. Now, the serial disconnects via soldering iron switch are no longer reproducable.
+
+
+
+27.5.22 16:36
+Maintenance
+
+A spool holder for 58mm wide spools was installed.
+M5 2020 slide-in nuts and DIN912 M5x10 bolts + washers were used to mount the spool holder to the frame. The original hardware previously holding the logo were used to mount the front-left side.
+
+A spool of JAYO black PLA was attempted to be loaded, but it wouldn't fit the center. A filament on a compatible spool was loaded.
+
+NOTE: It was noted that the Extruder cable should have a better mounting on top of the machine
+
+27.5.22 16:45
+Print failure
+
+The light-blue filament roll did fit the spool with too much friction. A copper colored silk PLA was loaded that spun freely.
+
+It was noticed on print restart that the bed height was set too low, Z was set higher. Still unsure why this happened
+
+
+27.5.22 20:20
+Print failure
+Filament: TEQStone SILK PLA Copper
+
+Problematic filament, filament kept hanging, parts of the print have partial extrusion failures as result.
+
+
+28.5.22 0:30
+Bed Level issue
+
+Left side was a lot higher than the right side. Right side bed adjustment screws were adjusted. Front right side might need a bit more adjusting downwards.
+It was noticed that the carbon plate is warping notiable towards its middle.
+
+Upon inspection of the print, the right side still looks too low but it was decided to continue with the print as is
+
+28.5.22 11:45
+Bed Level issue
+
+Bed levelling was off again causing extrusion Z to be too deep. Bed level was recalibrated during several attempts of fixing it.
+The corners mounts seem to actually bend the build plate a bit, or have done so over time, though the problem may also originate from the glass plane underneath. This needs to be determined by disassembling the Y heat plate.
+
+28.5.22 17:30
+Bed Level issue
+
+Bed level was slightly off causing the filametn to strip. Had to recalibrate bed and re-load the (sunlu brand) filament that wouldn't cooperate
+
+
+28.5.22 23:50
+Maintenance / Print Bed replacement
+
+After the print refuses to start nicely for the 3rd time today and three unsuccessful attempts to set the bed level correctly, it was decided to "screw it".
+A replacement carbon plate was found earlier today while inspecting the little sister bot TAZ3.
+The replacement carbon plate was installed.
+
+A quick inspection of the Y axis underneath found two little cuts of filament between Y axis and heat bed. They were removed.
+The glass plate on which a silicone heating pad is glued on revealed minor damage where a nozzle scraped off some material. A tiny bit of hard-to-remove plastic remained and should not cause any significant issues.
+
+The ABS plastic corners may be a cause of Z height inconsistency issues, which the hack using two mirrored parts may have made it worse.
+They can easily pivot when moved. The bolts anchoring the lower ones are not suitable to keep this from happening.
+Potential expanding / shrinking moves of the glass bed and carbon plate may cause a slight pivoting movement.
+More problematicly, parts that are stuck too well to the bed (as the current SunLu Silk PLA filament keeps producing this issue) will produce some amount of pivoting and there's no guarantee on how the print platform will return into
+
+
+Recommendations:
+1. Avoid filament that keep sticking to the bed when cooled down
+2. Redesign the print bed corners, i.e. make the corners fixed to the Y axis
+
+
+29.5.22 13:12
+Print failure / Spool problems
+Filament used: Sunlu Silk PLA blue
+
+The filament hung on a "layer change" on the spool. It was moderately hard to pull it free.
+The extruder gear had slipped causing a print failure.
+
+
+30.5.22 10:30
+Print failure / Spool problems
+Filament used: Sunlu Silk PLA silver
+
+Spool hung, print failed, like the last entry.
+The nozzle is clogged after this incident.
+
+
+30.5.22 12:45
+Nozzle swap
+
+Nozzle was swapped to a 0.4mm brass one. Z height and bed level were recalibrated.
+
+
+30.5.22 14:16
+Print failure, safety cutoff
+
+Hotend thermistor wire snapped mid-print causing the safety cutoff to kick in.
+The wire broke after repeated twists of the heatblock when the nozzles were swapped.
+
+A new thermistor was prepared with a cable and plug, but it does not fit into the hole. The thermistor is about 2.5mm thick, the hole about 2.25mm
+
+30.5.22 17:11
+cont
+
+A 2.5mm drill bit was not found, a 3mm one was used. The thermistor has a bit of space, but is kept in reasonably well by its wires via the screw on the heater block.
+A test print was started to determine if the thermistor needs to be recalibration.
+
+
+1.6.22 11:36
+Print failure / Spool PRoblems
+Filament used: JAYO PLA Black
+
+It was attempted to use up the last 32 meters of filament left on the spool. The spool hung mid-print, causing the extrusion to fail.
+
+Suggestions: An improved spool unrolling mechanism should be implemented
+
+
+1.6.22 19:55
+Nozzle swap: 0.8mm
+
+A 0.8mm nozzle was installed. Bed levell and Z height was slightly adjusted
+
+
+2.6.22 15:17
+Print failure, Spool hang
+
+The spool hung on its last ~30 meters.
+
+
+2.6.22 15:18 - 21:15
+Maintenance
+
+A filament flow and run sensor has arrived today. A new firmware is required to run the sensor.
+
+The electronics box was opened. The previous filament sensor cable was repurposed and re-labelled to serve 24V and is plugged into X30 (lower pin GND).
+
+A hole was drilled near the E0 plug to push a 3-pin new wire through. The original Z+ housing was pulled as it doesn't work with the JST connectors at hand.
+
+Extruder Cable modifications:
+E-Fan cable was repurposed and relabelled to 24V (orange heatshrink tube for unswitched). Same for the matching connector at the Extruder.
+The 3-pin included with the filament sensor was slightly extended with a 3-pin plug and labelled "Filament Sens."
+Z height had to be adjusted after extruder was removed and remounted.
+
+Firmware:
+Firmware was updated to Marlin 2.0
+TAZ4 now has UUID 98b15fe0-c4b2-013a-cb63-3c970eb37215
+
+Upgrading the firmware had a bunch of problems:
+- the firmware reported MAXTEMP E1 (E1 display, E0 to pronterface) raising above 120 °C. Problem seems to have disappeared after re-flashing the firmware
+- the electronics fan emitted a high pitched noise on default settings / settings copied from the old firmware. PWM setting was changed to 180 (from 120) for active, and idle setting was set to 120 (from 0)
+
+
+Notes: Filament sensor wiggles around too much mounted directly on the extruder entrance. Might be a good idea to rework the spool holder entrance to mount it there.
+
+Filament sensor was verified to work on hanging filament. However when this happens, the print will be lacking the last extrusions of about 7mm of filament.
+
+
+2.6.22 21:35
+Maintenance, additional Note
+
+It was noticed that the firmware takes a long time to be happy with the temperature when it reaches it, even when it has been kept at this temperature.
+Upon inspection, the firmware was configured for TEMP_RESIDENCY_TIME 10 (seconds) while the original one has it set to 1 seconds.
+
+The firwmare will be re-flashed after the test print finishes.
+
+2.6.22 23:19
+Maintenance, Filament Sensor test
+
+The firmware was re-flashed. The filament sensor was tested for filament runout sensing.
+The first test resulted in the filament running out past the extruder gear. The extruder had to be partially disassembled to retreive the remaining filament.
+
+Another pneumatic coupling was added to the small ptfe tube of the sensor. This one sits nicely on the opening of the extruder arm. It was noted that the PTFE tube would have been chopped up with time by the extruder gear otherwise.
+
+Another runout test further at the print resulted in a shorter response time and okay.
+
+The firmware was re-flashed, FILAMENT_RUNOUT_DISTANCE_MM was set to 5 (from 7), first runout test was reproduced on the first layer and it worked as required.
+
+NOTE: one weird thing is that the extruder gear tries to spin way too fast when the printer goes to resting position, but that is not part of the retraction. About a second or two later it graduately spins up to retract the filament and that works okay.
+
+
+3.6.22 10:40
+Print failure / extruder
+
+Top layers of the last print only printed partially. Some mateiral was pushed out but not all the required material.
+It was determined that the extruder front plate is flexing too much. Re-tightening of the screws resulted in the bottom right one rotating the thread insert again.
+
+It was determined that the aluminium version of the extruder is to be installed.
+
+
+NOTE: There's a Firmware bug that stops the print immediately after start when manual extrusion is used.
+M412 R1 G-code was added ot reset the filament sensor on print start
+
+
+
+3.6.22 14:35
+Extruder Swap
+
+The extruder was swapped with an Al version of the titan extruder.
+A chunk of plastic had to be cut from the TAZ extruder mount to fit it. The motor heatsink part did not fit the existing mount and the one supplied deemed incompatible.
+
+The extruder came with a motor gear that did not fit when installed, the top would not close. The original gear was used.
+
+The hotends upper PTFE tube needed to be cut. Since no insert was supplied / at hand, the ptfe tube was just cut flush to the top of the hotend. This might be problematic on filament changes as there's nothing to hold it in place.
+
+
+The E steps need to be recalibrated.
+
+A test print showed that the extruder motor was unable to push filament through the nozzle. After trying out higher digipot settings, It was noticed that the hotend fan was not working.
+
+The filament was removed, the machine was turned off. It was noticed that the voltage converter wires broke off.
+
+The hotend needs to cool down before repair.
+
+
+16:58
+Extruder Swap, cont.
+
+The cables leading to the power converter were soldered back on.
+A flow calibration plate was started.
+
+The extruder digipot had to be set to 180 (from 70) which is likely to cause extruder motor thermal issues. The extruder spring should be replaced by the original, weaker one.
+
+
+17:20
+Filament Sensor Problem
+
+The firmware thought the filament sensor had triggered, but it didn't. No parts missing of the printed calibration part. One thing to note is that the print uses the slic3rs "complete individual objects" feature
+
+The sensing was turned off for the remainder of the calibration print. This may require more firmware debugging.
+
+
+18:00
+Extruder Swap, cont.
+
+The extruder spring was switched to the old one. Some powder of the big plastic gear was visible, slight wear was found on the big gear.
+A bit of oil was sprayed on the motor gear. Other moving parts on the machine were serviced with a bit of oil too.
+
+The digipot setting for extruder was reset to 70. Some firmware tweaks were performed and M75/M77 codes were added in to start/end/inbetween objects gcode.
+
+E-steps were increased to 440, a new finer calibration program was loaded.
+
+18:22
+Filament Sensor Problem
+
+The sensor triggered again erroneously after an ironing layer on calibration.
+
+18:52
+Calibration
+
+E-steps were set to 448. A storage containr was chosen for a test print.
+E-steps were set to 450.
+
+
+4.6.22 0:50
+Extrusion Problem at print begin
+
+It was noticed that the last 3 prints all had extrusion problems starting the print. They would not extrude on the skirt or only partially until the filament sensor would kick in and unload the filament.
+Reloading it manually did not show anything unusual.
+
+More investigation is necessary.
+
+4.6.22 14:00
+Filament Sensor Problem
+
+The filament sensor triggered twice at one print for no obvious reason at low layer height sections.
+
+Further investigation is necessary. The print finished nominally.
+
+
+4.6.22 15:09
+Maintenance
+
+Firmware was re-uploaded with sensor debug on. This caused the printer to send the status of length remaining regardless on what it was doing, causing pauses in long moves.
+This was deactivated. Pause behavior was changed to not retract as it did seem to retract the length of E gcode on top of what it was told to do originally (2mm)
+
+Sensor length was set to 15mm.
+Print bed was levelled, cleaned and coasted.
+
+0.8mm profile start gcode was modified to purge some material before on front of the machine. This will need some further testing and fine tuning.
+
+
+
+
+

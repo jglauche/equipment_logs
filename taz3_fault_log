@@ -1,0 +1,30 @@
+28.5. 17:11
+Inspection
+
+The TAZ3 was visually inspected after sitting offline for about 6 years.
+
+- overall looks to be in good shape
+- carbon plate installed as in the TAZ4.
+- carbon plate has ABS slurry stuck on top, needs to be cleaned with Acetone
+- X axis didn't move smoothly. Guide rods need to be cleaned and oiled
+- Y axis moves smoothly
+- Z endstop looks a bit sketchy, was glued in place using epoxy kitt. Likely to accept a lower hotend height
+- Z axis is untested, using M5 threaded rods. Might want to be upgraded to spindles if it causes problems
+- X, Y, Z min endstops seem to work
+- spool holder didn't want to retract at first, lots of resistance. Moved more smoothly afterwards
+- power supply is an industrial power supply with a plastic front cover. Looks safe.
+- Extruder is a 3mm filament MGS one. A bit of filament was stuck in, presumably ABS
+- Hotend wasn't checked. Looked like the fan mount for a v4/v5 J-head
+- nozzle size unknown.
+
+Notable spares:
+- a spare carbon plate was found (used in TAZ4).
+- a lot of adhesive PEI sheets were found. Could try to use those on the glass plate instead of carbon fibre.
+
+
+Idea dump:
+- single board computer; maybe a raspi 1 with a custom print controller
+- make a console based print host in rust? Want to have features like time-left based heatbed control, integrated spool manager, gpio buttons
+- log files about print times, filament used, etc along with fault log
+
+
