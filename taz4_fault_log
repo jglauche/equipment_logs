@@ -573,7 +573,7 @@ E-steps were set to 450.
 
 
 4.6.22 0:50
-Extrusion Problem at print begin
+Extrusion problem at print begin
 
 It was noticed that the last 3 prints all had extrusion problems starting the print. They would not extrude on the skirt or only partially until the filament sensor would kick in and unload the filament.
 Reloading it manually did not show anything unusual.
@@ -599,7 +599,21 @@ Print bed was levelled, cleaned and coasted.
 
 0.8mm profile start gcode was modified to purge some material before on front of the machine. This will need some further testing and fine tuning.
 
+5.6.22 0:15
+Note
+
+The filament ran out in production conditions and the filament sensor detected and acted nominally. Filament was easy to pull out of the extruder aftwards with curent settings (15mm sensing distance, 60mm retract).
 
 
+5.6.22 10:09
+Extrusion problem at print begin
+
+Extruding ~40mm of filament into the air at print begin does not solve the issue that appeared since the extruder was swapped.
+
+It is possible that the shape of the filament drive gear has an impact as the teeth grip into the material less, combined with high temperatures (225 °C) used for the 0.8mm nozzle operation.
+
+The filament sensor is detecting this case nominally while printing a skirt. The ejected filament can be pushed back into the hotend with ease.
+
+It should be tried to add a lengthy retract at the end g-code and re-retract at start.
 
 
