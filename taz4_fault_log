@@ -622,12 +622,12 @@ Minor print problem after filament change
 Filament: Eryone Ultra Silk PLA Bronze
 
 The filament loaded was slightly undersized (random spots measured at 1.72, 1.74, 1.73).
-A slicing issue in combination with underextrusion caused an aligned seam in two of the three parts to not fuse together. This was especially problematic with the last part of the layer where the Z move was at that seam. The printing of that part was aborted via the cancel individual object feature. This worked nominally. The two other parts were continued to print with a flow rate of 108%.
+A slicing issue in combination with underextrusion caused an aligned seam in two of the three parts to not fuse together. This was especially problematic with the last part of the layer where the Z move was at that seam. The printing of that part was aborted via the cancel individual object feature.
+This worked almost nominally, however it left a noticable blob at the seam of the object prior to the canceled object.
+The two other parts were continued to print with a flow rate of 108%. However it was later noticed that the (only perimeter) layers were delaminating easily and the parts had to be binned.
 
 Slicer settings were adjusted after this issue:
 - filament diameter was set to 1.72mm
 - seam position was set to random
-
-
 
 
