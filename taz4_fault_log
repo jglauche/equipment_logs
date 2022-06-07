@@ -623,11 +623,41 @@ Filament: Eryone Ultra Silk PLA Bronze
 
 The filament loaded was slightly undersized (random spots measured at 1.72, 1.74, 1.73).
 A slicing issue in combination with underextrusion caused an aligned seam in two of the three parts to not fuse together. This was especially problematic with the last part of the layer where the Z move was at that seam. The printing of that part was aborted via the cancel individual object feature.
-This worked almost nominally, however it left a noticable blob at the seam of the object prior to the canceled object.
+This worked almost nominally. [There was a blob that later on was identifed to be a end gcode issue]
 The two other parts were continued to print with a flow rate of 108%. However it was later noticed that the (only perimeter) layers were delaminating easily and the parts had to be binned.
 
 Slicer settings were adjusted after this issue:
 - filament diameter was set to 1.72mm
 - seam position was set to random
+
+
+7.6.22 11:44
+Minor print problem, seam
+
+The overnight print produced random visible seams. Filament was swapped to one used previously to rule out filament problems, the same happened.
+Seam position setting was reverted to cost based.
+Seam gap was reduced siginificantly from 15% to 3%. This setting may be increased slightly to calibrate a perfect seam.
+
+
+7.6.22 11:53
+Firmware issues / Heater watchdog
+
+A print was restarted at the first layer to fix some gcode settings. While doing that, the hotend and heatbed were kept on at print temperature.
+Upon print restart, the firmware beeped several times and displayed "E0 heating error" after slowly dialing up to temperature.
+The hotend was set to 225 °C, the temperature readout indicated 223 °C and then 224 °C moments before the firmware restarted.
+
+There was no observation of actual failure.
+
+Further investigation is necessary.
+
+
+
+
+
+
+
+
+
+
 
 
