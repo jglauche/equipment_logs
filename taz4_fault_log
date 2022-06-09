@@ -651,6 +651,37 @@ There was no observation of actual failure.
 Further investigation is necessary.
 
 
+9.6.22 13:32
+Extruder problem on retraction after filament runout
+Filament used: Sunlu Silk PLA Silver
+
+The filament ran out. Retraction did not work nominally and left the filament in between the area below the extruder gear.
+It was attempted to fish it out using flat pliers, but the last part of the filament would be stuck.
+
+The extruder front plate was opened. The fault was cleared. A screw and bearing fell out of the block.
+The extruder front plate would not close in position afterwards. Cause was that it was assumed that the extruder idler bearing was lost and replaced.
+However the bearing was still stuck in there, so the extra bearing would make the extruder not close.
+
+The extruder was fixed off the machine.
+It was attempted to resume the print. On the first attempt, the XY would move very slowly to the part of the print that was interrupted.
+However it did not reset the Z offset. Print was paused and all axis were homed. It was tried to resume the print, however it did not go to the desired Z height and the extruder head crashed into the print.
+
+The print was aborted.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
