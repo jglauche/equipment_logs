@@ -668,6 +668,27 @@ However it did not reset the Z offset. Print was paused and all axis were homed.
 
 The print was aborted.
 
+9.6.22 19:22
+Hotend clog
+Filament used: Sunlu Silk PLA Blue
+
+The hotend was heated up to temperature after a print to change filament. An attempt was made to manually retract the filament out of the hotend, resulting in a clog that needed hotend disassembly.
+First it was tried to screw out the nozzle and push against the clog from below. This did not work.
+
+The extruder front was disassembled, the hotend removed. The PTFE tube was pulled. The clogged filament was inside the PTFE tube and had formed a plug between top of the heatbreak and bottom of the PTFE tube.
+
+The hotend was reassembled, the extruder was reassembled (this time without issues) and the nozzle was screwed back on.
+
+The Z height needed to be recalibrated.
+
+Suggestion: Find a way to fixate and slightly tighten the PTFE tube in place on the hotend.
+
+
+
+
+
+
+
 
 
 
