@@ -685,11 +685,24 @@ Suggestion: Find a way to fixate and slightly tighten the PTFE tube in place on 
 
 
 
+10-12.6.22
+Inconsistent Prints
+Filament used: TEQStone Silk PLA Copper (replacement spool)
+
+The filament started printing okay, then at the inner layers, the spool itself caused a lot of hangs and other not determined filament feeding problems. The filament sensor would trigger a lot, however a lot of times there have been gaps in perimeters that are only explained by the extruder gear slipping (and the filament sensor not catching it because of its configured filament sensor length).
+A change of filament resulted in nominal extrusion on following calibraiton prints.
 
 
+12.6.22 23:42
+Z gantry level, print bed level
 
+It was observed that the Z axis had some issues with small, fast moves and there have been level issues in the X direction at the same time.
+It was observed that the default Z acceleration of 500 was too high (at least for the set Z stepper power levels). It was reduced to 200 and saved in eeprom.
 
+The Z gantry was recalibrated. This caused the bed to not being aligned anymore. The bed was realigned and tested via calibration prints.
+The Z endstop position had to be lowered.
 
+The spring bolt on the front right bed corner was swapped to M3x16 as the stock M3x12 one was too short and slipped out of the thread multiple times while calibrating
 
 
 
