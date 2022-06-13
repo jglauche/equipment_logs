@@ -705,6 +705,14 @@ The Z endstop position had to be lowered.
 The spring bolt on the front right bed corner was swapped to M3x16 as the stock M3x12 one was too short and slipped out of the thread multiple times while calibrating
 
 
+13.6.22 17:33
+Z axis failure mid print
+
+The printer made strange noises just before the filamend endstop kicked in. The filament was stripped at the extruder gear.
+When filament was re-loaded, the Z axis had troubles moving back. The right side of the Z axis was set much higher than the left one.
+
+Further investigations are necessary.
+
 
 
 
