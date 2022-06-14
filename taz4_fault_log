@@ -713,13 +713,31 @@ When filament was re-loaded, the Z axis had troubles moving back. The right side
 
 Further investigations are necessary.
 
+13.6.22 23:05
+Maintenance
+
+Z axis was levelled. Z drive and guide rods were oiled.
+First it was attempted to move the Z axis all the way upwards. The (mostly unused) new top spool holder collides with the X carridge around Z MAX.  The carridge was moved out of the way to achieve hitting the machine top.
+The right side of the Z axis seemed too low even when moved both axis to its upmost position by hand. While this moved freely all the way up and down, the bed could not be levelled on the right side as it exceeded the spring settings by a big margin.
+It was then attempted to calibrate the axis by a digital angle meter. This resulted in a managable bed levelling.
+
+While levelling the bed, it was noticed that the heater block was loose. The nozzle was removed, the heatbreak was removed.
+It appears that there was a tiny gap between heatbreak and nozzle. The matching side of the heatblock was cleaned up. The thread inside the heatblock was attempted to clean.
 
 
+14.6.22 14:10
+Maintenance, cont.
 
+The nozzle thread was cleaned, the nozzle mating surface with the heatbreak was cleaned.
+The fan shroud was cleaned with IPA and a q-tip.
+The hotend was re-assembled, tightened, then re-tightened at 160 °C reported temperature.
+The fan shroud was mounted to the left side of the machine to avoid being too close to the heater.
+The extruder feeding gear was cleaned.
+It was verified that the filament runs through.
+Z endstop height was slightly adjusted, bed level was adjusted and verified by calibration prints.
+The Z axis was moved close to max (to 220mm) and back to verify it running smoothly.
 
-
-
-
+A smaller print was started to verify everything's in working condition.
 
 
 
