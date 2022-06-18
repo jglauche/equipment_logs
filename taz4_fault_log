@@ -740,15 +740,21 @@ The Z axis was moved close to max (to 220mm) and back to verify it running smoot
 A smaller print was started to verify everything's in working condition.
 
 
+18.6.22 17:24
+Extrusion failures, faulty E motor cable
+
+The extrusion failed seemingly randomly with a buzzing sound as if the extruder motor had not enough power, over the course of the last few prints.
+The source of the problem was just recovered to be a faulty extruder motor cable.
+The hotend will be cooled down to room temperture before attempting to fix it.
 
 
+18.6.22 19:54
+Repair, Extruder cable
 
+The motor cable was inspected. The black colored cable on the extruder cable side had snapped off at the crimp housing exit.
+Since no replacement crimps nor connectors were readily available, a pair of 4-pin 2.54mm connectors with cables was soldered on.
 
-
-
-
-
-
+The extruder unit was tested, nominal motor movement and filament extrusion. Operation was resumed.
 
 
 
