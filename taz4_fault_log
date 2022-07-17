@@ -756,5 +756,23 @@ Since no replacement crimps nor connectors were readily available, a pair of 4-p
 
 The extruder unit was tested, nominal motor movement and filament extrusion. Operation was resumed.
 
+17.7.22 16:13
+Filament breakage, extruder clog
+Filament used: Owl PLA Violette
+
+The printer wasn't used for a couple of weeks. Upon a new print job, the filament broke inside the extruder, causing it to clog up.
+Upon examination, the filament that was left in the PTFE feeding tape broke into a lot of bits. It was attempted to use filament that was on the spool, but it also got brittle. It is to note that the spool was almost empty.
+The fault couldn't be resolved by pushing new filament into the extruder. The extruder front had to be opened and the hotend PTFE tube had to be pulled to clear the fault.
+
+A new filament was loaded and the print resumed nominally. The faulty spool of filament was discarded.
+
+
+
+
+
+
+
+
+
 
 
