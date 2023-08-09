@@ -767,6 +767,13 @@ The fault couldn't be resolved by pushing new filament into the extruder. The ex
 A new filament was loaded and the print resumed nominally. The faulty spool of filament was discarded.
 
 
+9.8.23 22:01
+Thermal Runaway error, then unexpected restart without user input
+
+The printer beeped alarm, then rebooted. The host software ireported a Thermal Runaway Error on E0, then wanted to restart the print for some reason.
+Problem was not found yet, extruder was heated to 237 °C (print temperature), then to 250 °C and problem did not reproduce.
+
+
 
 
 
