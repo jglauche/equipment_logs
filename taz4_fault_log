@@ -774,6 +774,23 @@ The printer beeped alarm, then rebooted. The host software ireported a Thermal R
 Problem was not found yet, extruder was heated to 237 °C (print temperature), then to 250 °C and problem did not reproduce.
 
 
+3.1.24 14:28
+Thermal Runaway error
+
+Printer restarted after issuing thermal runaway error. Temperatures afterwards looked fine. Wiggling cables and connectors did not trigger the issue.
+
+
+3.1.24 14:59
+First layer print issues / Maintenance
+
+The first layer kept failing and it was squished. Upon inspection, bed levelling was off. The Z gantry has been slightly adjusted, as well as the z endstop screw.
+
+A bit of oil was added to smooth rods and linear screws.
+
+
+
+
+
 
 
 
