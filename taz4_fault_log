@@ -788,11 +788,13 @@ The first layer kept failing and it was squished. Upon inspection, bed levelling
 A bit of oil was added to smooth rods and linear screws.
 
 
+5.1.24 12:27
+Extruder Thermistor, no temperature reading
 
+The extruder thermistor stopped reporting temperature and the machine reset upon changing filament. The extruder assembly was removed.
 
-
-
-
+The thermistor leads were tested. The soldering to the plug was flaky but not the cause of the issue. The shrink-wrap around the thermistor and the thermistor still reported open circuit.
+Shortly after, the thermistor broke in two.
 
 
 
