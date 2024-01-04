@@ -796,7 +796,16 @@ The extruder thermistor stopped reporting temperature and the machine reset upon
 The thermistor leads were tested. The soldering to the plug was flaky but not the cause of the issue. The shrink-wrap around the thermistor and the thermistor still reported open circuit.
 Shortly after, the thermistor broke in two.
 
-5
+4.1.24 14:48
+Hotend Repair
+
+The thermistor was replaced with a new one. While fixating the wires, one of the 24V in wires to the DC-DC regulator broke.
+Both wires were removed, the solder pads cleaned up. Both wires were stripped and soldered onto again. The wires were fixed mechanically towards the DC-DC regulator module to avoid future wire fatigue because of movement.
+The extruder assembly was re-attached. The Z height was adjusted above as the extruder seems to sit a tiny bit lower. This might need further fine tuning.
+
+
+
+
 
 
 
