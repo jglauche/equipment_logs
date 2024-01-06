@@ -804,11 +804,12 @@ Both wires were removed, the solder pads cleaned up. Both wires were stripped an
 The extruder assembly was re-attached. The Z height was adjusted above as the extruder seems to sit a tiny bit lower. This might need further fine tuning.
 
 
+6.1.24 23:45
+Filament feed issues
 
+The printer is having some troubles feeding filament reliably. It works fine until it slips for a long while. This problem did start to happen after filament change.
+4 filaments have been tried, all having with the same problem, with different temperature and speed settings.
 
-
-
-
-
+The extruder drive mechanism has to be inspected.
 
 
