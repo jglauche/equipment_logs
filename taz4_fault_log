@@ -812,4 +812,19 @@ The printer is having some troubles feeding filament reliably. It works fine unt
 
 The extruder drive mechanism has to be inspected.
 
+7.1.24 14:38
+Extruder Repair
+
+The extruder drive was disassembled, cleaned and inspected. The mechanism holding the tensioner spring was at an abnormal position.
+The bearing on the spur gear holding the pressure arm was binding. After cleaning, a thin layer of oil was applied and it seems to be running fine again.
+The gears and filament bite gear were cleaned and a small amount of oil was applied.
+
+Upon resassembly the pressure mechanism was tested and worked satisfactory. A bit of oil residue appeared on the test filament.
+
+Furthermore, upon reassembly of the extruder unit, it was found that the extruder cooling fan and its mount is marginal and will need replacement in the near future.
+
+The Z height was adjusted after reinstalling and testing the extruder. A test print was started.
+
+
+
 
