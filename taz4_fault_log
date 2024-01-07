@@ -831,7 +831,16 @@ Extruder Fan making grinding sounds
 Around 15 minutes into the fan, the extruder fan made loud grinding sounds. The print was interrupted by the operator and the printer shut down.
 The fan needs to be replaced after the extruder cools down.
 
+7.1.24 15:43
+Extruder Fan repair
 
+The extruder fan was removed from the mount.
+The mount had a crack. The crack was repaired with superglue.
+Upon removal of the extruder fan, the motor and blade assembly fell out of its fan housing.
+
+The fan was replaced with a new part, the mount and the cables reattached.
+The voltage trimpot was adjusted slightly to incrase the airflow of the new fan.
+The Z height was adjusted after reinstalling the extruder mount.
 
 
 
