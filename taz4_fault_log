@@ -825,6 +825,13 @@ Furthermore, upon reassembly of the extruder unit, it was found that the extrude
 
 The Z height was adjusted after reinstalling and testing the extruder. A test print was started.
 
+7.1.24 14:57
+Extruder Fan making grinding sounds
+
+Around 15 minutes into the fan, the extruder fan made loud grinding sounds. The print was interrupted by the operator and the printer shut down.
+The fan needs to be replaced after the extruder cools down.
+
+
 
 
 
