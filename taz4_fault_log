@@ -846,8 +846,19 @@ The Z height was adjusted after reinstalling the extruder mount.
 8.1.24 19:46
 Thermal runaway error, then normal operation
 
-The printer emmited a thermal runaway error and then restarted with normal readings. The print was resumed.
+The printer emited a thermal runaway error and then restarted with normal readings. The print was resumed.
 
+8.1.24 20:09
+Thermal runwaway error, firmware crash, eeprom faílure
+
+The printer emitted a thermal runaway error, then crashed.
+The LCD screen was frozen, a USB reconnect would freeze, last G-code received was Thermal runaway error E0, twice [last time it was one message].
+
+Temperatures visible at the frozen screen was 230 °C for E0, 60 °C for bed; both consistent with the used setting.
+
+On power cycle, the printer would greet with "EEPROM VERSION ERROR", however on pressing "Ignore" it would go to the main screen with nominal readings (been cooling down, now 59 °C E).
+
+Further investigation is required.
 
 
 
