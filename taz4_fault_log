@@ -861,4 +861,23 @@ On power cycle, the printer would greet with "EEPROM VERSION ERROR", however on 
 Further investigation is required.
 
 
+8.1.24 20:51
+Firmware Configuration update
+
+THERMAL_PROTECTION_HYSTERESIS changed from 4 to 20
+THERMAL_PROTECTION_PERIOD changed from 40 to 60
+
+unrelated to that
+WATCH_BED_TEMP_PERIOD changed from 60 to 90
+WATCH_BED_TEMP_INCREASE changed from 2 to 1
+
+PLR_ENABLED_DEFAULT changed from false to true
+
+
+The firmware was updated, the eeprom replaced with default settings.
+It was noted that the extruder has started to sound broken. The voltage was adjusted to slightly reduce its speed.
+
+The fan will need to be replaced again soon. For now the print previously causing the runaway errors was restarted.
+
+
 
