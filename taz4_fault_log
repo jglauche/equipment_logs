@@ -843,4 +843,11 @@ The voltage trimpot was adjusted slightly to incrase the airflow of the new fan.
 The Z height was adjusted after reinstalling the extruder mount.
 
 
+8.1.24 19:46
+Thermal runaway error, then normal operation
+
+The printer emmited a thermal runaway error and then restarted with normal readings. The print was resumed.
+
+
+
 
