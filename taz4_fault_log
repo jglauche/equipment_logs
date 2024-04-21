@@ -879,5 +879,15 @@ It was noted that the extruder has started to sound broken. The voltage was adju
 
 The fan will need to be replaced again soon. For now the print previously causing the runaway errors was restarted.
 
+22.4.24 1:24
+Catastrophic failure
+
+A print was started and left unattended. After returning, the printer was unresponsive, LCD screen off, hotend and heated bed cold.
+No error message was logged in the print software.
+
+Failure seems to be a blown fuse on the control board, further investigation is needed.
+
+
+
 
 
