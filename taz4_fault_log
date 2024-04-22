@@ -888,6 +888,12 @@ No error message was logged in the print software.
 Failure seems to be a blown fuse on the control board, further investigation is needed.
 
 
+22.4.24 13:50
+
+It was determined that F3 blew, which is supply for Heaters and also logic VCC.
+The cause could not yet be determined, the hotend resistor shows a resistance of 20 Ohms.
+Replacement fuses were ordered, part number 0451005.MRL
+
 
 
 
