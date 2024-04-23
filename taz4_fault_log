@@ -894,6 +894,9 @@ It was determined that F3 blew, which is supply for Heaters and also logic VCC.
 The cause could not yet be determined, the hotend resistor shows a resistance of 20 Ohms.
 Replacement fuses were ordered, part number 0451005.MRL
 
+23.4.23 20:46
 
+F3 was replaced by a working 5A fuse from a spare RAMBo 1.2 board - it also had corrosion that was cleaned up prior to installation.
+A test print was started.
 
 
