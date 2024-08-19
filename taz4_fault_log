@@ -905,7 +905,7 @@ Spurious Heating failed error message.
 While heating up to the third print of today, the printer restarted with a spurious heating failed for E0 error message.
 The temperature set by gcode was 240 °C and the temperature reported in pronterface was 230 °C. The error repeated shortly after firing. After that the print was able to restart normally.
 
-19.7.24 0:23
+19.8.24 0:23
 Short circuit during filament change, suspected broken fuse.
 
 The printer asked for a filament change as the filament ran out.
@@ -915,4 +915,12 @@ A spark was observed somewhere, resulting in a fuse blowing.
 Trying to shut it back on, the extruder fan spun up but the display was not.
 
 Suspected blown fuse F3 on the controller board. Pending inspection.
+
+19.8.24 15:01
+Replaced F3
+
+Replaced F3 with a new one. Noticed that the extruder heater connector is a bit flaky and the crimps were sticking slightly out. Reinserted them.
+Will probably need to get the entire connector replaced.
+
+
 
